@@ -1,0 +1,349 @@
+@media only screen and (max-width:1366px) {
+
+    .navbar-light .navbar-nav .nav-link {
+        padding: 40px 10px;
+    }
+
+    .banner-photo img {
+        object-position: 0 -60px;
+    }
+
+    .why-us {
+        background-size: 950px;
+    }
+
+    .why-text p {
+        font-size: 18px;
+    }
+
+    .why-text h3 {
+        font-size: 37px;
+    }
+
+    .details p {
+        font-size: 18px;
+    }
+
+    .senior-school {
+        background-size: 1060px;
+    }
+
+    .heading h4 {
+        font-size: 40px;
+    }
+
+    .senior-text h3 {
+        font-size: 30px;
+    }
+
+    .sub-text img {
+        width: 80%;
+    }
+
+    .head h4 {
+        font-size: 40px;
+    }
+
+    .days-text p {
+        font-size: 18px;
+    }
+
+}
+
+@media only screen and (max-width:1199px) {
+
+    .contact-main {
+        display: none;
+    }
+
+    .navbar-light .navbar-brand {
+        font-size: 25px;
+    }
+
+    .nav-item2 {
+        display: none;
+    }
+
+    .nav-item1 {
+        display: none;
+    }
+
+    .card-main {
+        margin-bottom: 20px;
+    }
+
+    .addmission-row {
+        justify-content: center;
+    }
+    .structure-main{
+        margin-top: 0;
+    }
+
+    .why-text {
+        padding: 50px 150px;
+    }
+
+    .why-photo {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .why-us {
+        background-size: cover;
+        background-position: right;
+    }
+
+    .senior-school {
+        padding: 90px 0;
+        background-size: 1860px;
+    }
+
+    .senior-text {
+        padding: 0 100px;
+    }
+    .accordion button .icon {
+        width: 26px;
+        height: 26px;
+    }
+
+    .a-prev {
+        width: 35px;
+        height: 50px;
+        left: -20px;
+    }
+
+    .a-next {
+        width: 35px;
+        height: 50px;
+        right: -20px;
+    }
+
+
+}
+
+@media only screen and (max-width:991px) {
+
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .navbar-light .navbar-toggler-icon{
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+    .navbar-light .navbar-toggler {
+        border-color: transparent;
+    }
+    .navbar-light .navbar-nav .nav-link.active {
+        color: #e83b0d;
+        border-bottom: 3px solid transparent;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        padding: 15px 10px;
+    }
+    .banner-photo img {
+        object-position: unset;
+    }
+    .banner-text h1 {
+        font-size: 60px;
+    }
+    .banner-text h2 {
+        font-size: 44px;
+    }
+    .banner-text:before {
+        width: 80px;
+    }    
+    .banner-text .btn-main {
+        margin-top: 35px;
+    }
+    .details p {
+        font-size: 14px;
+    }
+
+    .days-text p {
+        font-size: 14px;
+    }
+    .days-photo {
+        height: 145px;
+    }
+
+}
+
+@media only screen and (max-width:767px) {
+
+    .navbar-light .navbar-brand {
+        font-size: 20px;
+    }
+    .nav-item2 {
+        display: block;
+    }
+
+    .nav-item1 {
+        display: block;
+    }
+    .banner {
+        padding-bottom: 140px;
+    }
+    .banner-text h1 {
+        font-size: 50px;
+    }
+    .banner-text h2 {
+        font-size: 34px;
+    }
+    .addmission-main {
+        padding: 60px 0 20px;
+    }
+    .card-main {
+        margin-bottom: 40px;
+    }
+    .add-text2 {
+        padding-bottom: 33px;
+    }
+    .heading h4 {
+        font-size: 30px;
+    }
+    .why-text {
+        padding: 50px;
+    }
+    .why-text span {
+        font-size: 14px;
+    }
+    .why-text h3 {
+        font-size: 30px;
+    }
+    .why-text p {
+        font-size: 16px;
+    }
+    .why-text h3 {
+        font-size: 25px;
+    }
+    .accordion .accordion-item{
+        padding: 0;
+    }
+    .sub-text img {
+        width: 70%;
+    }
+    .head h4 {
+        font-size: 30px;
+    }
+    .item {
+        width: calc(100% / 4);
+        padding-bottom: 50px;
+    }
+    .all-items {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .days-photo {
+        height: 165px;
+    }
+    .a-prev {
+        width: 35px;
+        height: 40px;
+        left: -20px;
+        font-size: 20px;
+    }
+    .a-next {
+        width: 35px;
+        height: 40px;
+        right: -20px;
+        font-size: 20px;
+    }
+
+}
+
+@media only screen and (max-width:575px) {
+
+    .banner {
+        height: 420px;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 0;
+        text-align: center;
+    }
+    .banner-text:before {
+        width: 40px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .banner-text h1 {
+        font-size: 45px;
+    }
+    .banner-text h2 {
+        font-size: 30px;
+    }
+    .btn-main{
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+    .banner-text .btn-main{
+        font-size: 12px;
+    }
+    .slick-dots li button{
+        width: 10px;
+        height: 10px;
+        font-size: 1px;
+    } 
+    .add-photo img{
+        height: 250px;
+    }
+    .add-text h3 span {
+        display: block;
+    }
+    .why-text {
+        padding: 40px 0;
+    }
+    .accordion{
+        padding-top: 40px;
+    }
+    .why-text p {
+        font-size: 15px;
+    }
+    .days-photo {
+        height: 350px;
+    }
+    .days-text p {
+        font-size: 20px;
+    }
+    .celebration-main {
+        padding-bottom: 150px;
+    }
+    .celebration-slide {
+        margin: 0;
+    }
+    .slide {
+        margin: 0;
+    }
+    .a-prev{
+        width: 40px;
+        height: 40px;
+        top: 110%;
+        left: 38%;
+        border-radius: 100px;
+    }
+    .a-next{
+        width: 40px;
+        height: 40px;
+        top: 110%;
+        right: 38%;
+        border-radius: 100px;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    
+    .heading h4 {
+        font-size: 25px;
+    }
+    .why-text h3 {
+        font-size: 20px;
+    }
+    .head h4 {
+        font-size: 25px;
+    }
+    .days-text p {
+        font-size: 18px;
+    }
+}
